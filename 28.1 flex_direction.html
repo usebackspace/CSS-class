@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        .flex-container {
+            border: 4px solid #111111;
+            display: flex;  
+            flex-direction: row;            
+            
+        }
+        .flex-item {
+            text-align: center;
+            padding: 20px;
+            margin: 15px;
+            font-weight: bold;
+        }
+        #f1{
+            background-color: red;
+        }
+        #f2{
+            background-color: yellow;
+        }
+        #f3{
+            background-color: blue;
+            align-content: flex-end;
+            }
+        #f4{
+            background-color: darkgreen;
+        }
+        #f5{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div id="f1" class="flex-item">Item 1</div>
+        <div id="f2" class="flex-item">Item 2</div>
+        <div id="f3" class="flex-item">Item 3</div>
+        <div id="f4" class="flex-item">Item 4</div>
+        <div id="f5" class="flex-item">Item 5</div>
+    </div>
+</body>
+</html>
